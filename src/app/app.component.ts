@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tour-of-heroes';
+
+  updateTitle(value: string)
+  {
+    this.title = value;
+  }
 }
